@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    CardUi()
+                    CardUx()
                 }
             }
         }
@@ -50,7 +50,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 }
 
 @Composable
-fun CardUi() {
+fun CardUx() {
     Surface(
         modifier = Modifier
             .fillMaxWidth()
@@ -77,6 +77,6 @@ fun CardUi() {
 @Composable
 fun GreetingPreview() {
     ComposeTheme {
-        CardUi()
+        CardUx()
     }
 }
